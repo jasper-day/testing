@@ -1,0 +1,15 @@
+---
+title: "solidworks_git"
+---
+
+This is a Quarto website.
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+
+Just because I can, here is some utterly gratuitous $\LaTeX$ (the nozzle exit velocity $v2$ of a nozzle):
+$$
+\begin{aligned}
+v2 &= \sqrt{2gJ(h_1 - h_2) + v_1^2} \\
+v2 &= \sqrt{\frac{2gk}{k - 1}RT_1\left[1 - \left(\frac{p_2}{p_1} \right) ^ \frac{(k-1)}{k} \right] + v_1^2}
+\end{aligned}
+$$

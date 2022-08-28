@@ -1,0 +1,5 @@
+---
+title: excellent assembly
+---
+
+The excellent assembly is made up of one [excellent pole](excellent_pole.qmd) and one [excellent rectangle](excellent_rectangle.qmd). The excellent rectangle is unconstrained on the pole and may rotate 360° as well as sliding up and down.
