@@ -13,3 +13,5 @@ v2 &= \sqrt{2gJ(h_1 - h_2) + v_1^2} \\
 v2 &= \sqrt{\frac{2gk}{k - 1}RT_1\left[1 - \left(\frac{p_2}{p_1} \right) ^ \frac{(k-1)}{k} \right] + v_1^2}
 \end{aligned}
 $$
+
+Check out the [excellent pole](excellent_pole.qmd), the [excellent rectangle](Excellent_rectangle.qmd), and the [excellent pole](Excellent_pole.qmd).
