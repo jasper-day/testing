@@ -23,4 +23,5 @@ In production, we would split the 3D models and documentation into their own par
       - Check out the [pandoc reference](https://pandoc.org/MANUAL.html#pandocs-markdown) for a very complete list of things you can do
     - You can add working R, Python, or Julia code blocks with triple backticks
     - Navigation can be done through standalone pages or a sidebar (the sidebar is a better choice for our wiki)
+    - Quarto allows you to change the aesthetics of the website very easily. It comes with the Bootswatch themes built in, and you can customize them very simply by creating your own SASS theme that overrides the sections you want to override. You can also define custom CSS.
     - And much more. Check out the [documentation](https://quarto.org/docs/guide/)
