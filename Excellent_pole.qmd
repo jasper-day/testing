@@ -4,6 +4,6 @@ title: "Excellent Pole"
 
 This pole measures exactly 0.65 cm in diameter and 5 cm in length. The diameter is chosen to give a 0.2 mm clearance on either side between the pole and the corresponding hole in the [excellent rectangle](Excellent_rectangle.qmd).
 
-Here is the [STL](Excellent_pole.stl)
+Here is the [STL](Excellent_pole.STL)
 
 ![](Excellent_pole.JPG)
