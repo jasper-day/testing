@@ -13,7 +13,7 @@ In production, we would split the 3D models and documentation into their own par
   - Git allows you to clone the repository and push your changes. You can use a GUI interface or the command line.
 - [Quarto](https://quarto.org)
   - Quarto powers the website and documentation itself. It is easiest to use with the [VSCode extension](https://quarto.org/docs/tools/vscode.html#installation)
-  - The quarto website is stored as markdown files (*.qmd). These can be crossreferenced like so: `[Link text](filename.qmd)`. You can also add images: `![Image caption](filename.jpg)` and links to files elsewhere in the repository, as well as links to external resources.
+  - The quarto website is stored as markdown files (*.qmd). These can be crossreferenced like so: `[Link text](filename.qmd)`. You can also add images: `![Image caption](filename.jpg)` and links to files elsewhere in the repository, as well as links to external resources. **Make sure that when you create links, you capitalize the filenames correctly!**
   - After making changes to the documentation, run `quarto render` before pushing the changes; this will update the website output in the `/docs` folder.
   - While making changes, you can run `quarto preview` to preview the website and make sure everything is correct.
   - Quarto allows you to include just about anything:
