@@ -5,6 +5,8 @@ This is a git repository created as a proof-of-concept, showing that it is possi
 
 In production, we would split the 3D models and documentation into their own parallel file trees.
 
+[Check out the website!](https://jasper-day.github.io/testing)
+
 ## What you need to run the documentation on your own computer:
 
 - Git, of course:
