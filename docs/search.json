@@ -9,7 +9,7 @@
   {
     "objectID": "Excellent_assembly.html",
     "href": "Excellent_assembly.html",
-    "title": "excellent assembly",
+    "title": "Excellent Assembly",
     "section": "",
     "text": "The excellent assembly is made up of one excellent pole and one excellent rectangle. The excellent rectangle is unconstrained on the pole and may rotate 360° as well as sliding up and down."
   },
@@ -32,6 +32,6 @@
     "href": "index.html",
     "title": "solidworks_git",
     "section": "",
-    "text": "To learn more about Quarto websites visit https://quarto.org/docs/websites.\nJust because I can, here is some utterly gratuitous \\(\\LaTeX\\) (the nozzle exit velocity \\(v2\\) of a nozzle):\n\\[\n\\begin{aligned}\nv2 &= \\sqrt{2gJ(h_1 - h_2) + v_1^2} \\\\\nv2 &= \\sqrt{\\frac{2gk}{k - 1}RT_1\\left[1 - \\left(\\frac{p_2}{p_1} \\right) ^ \\frac{(k-1)}{k} \\right] + v_1^2}\n\\end{aligned}\n\\]\nCheck out the excellent pole, the excellent rectangle, and the excellent ass."
+    "text": "To learn more about Quarto websites visit https://quarto.org/docs/websites.\nJust because I can, here is some utterly gratuitous \\LaTeX (the nozzle exit velocity v_2 of a nozzle):\n\n\\begin{aligned}\nv_2 &= \\sqrt{2gJ(h_1 - h_2) + v_1^2} \\\\\nv_2 &= \\sqrt{\\frac{2gk}{k - 1}RT_1\\left[1 - \\left(\\frac{p_2}{p_1} \\right) ^ \\frac{(k-1)}{k} \\right] + v_1^2}\n\\end{aligned}\n\nCheck out the excellent pole, the excellent rectangle, and the excellent ass."
   }
 ]

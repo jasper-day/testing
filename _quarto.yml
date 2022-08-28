@@ -9,12 +9,23 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+    - section: "Excellent Design"
+      contents:
+      - excellent_pole.qmd
+      - excellent_rectangle.qmd
+      - excellent_assembly.qmd
+
 
 format:
   html:
-    theme: cosmo
+    theme: litera
     css: styles.css
     toc: true
+    html-math-method: katex
 
 
 
