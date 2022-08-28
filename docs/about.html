@@ -58,7 +58,7 @@ ul.task-list{list-style: none;}
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -83,20 +83,73 @@ ul.task-list{list-style: none;}
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title">About</h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation docked overflow-auto">
+      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+    <div class="sidebar-item-container"> 
+        <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">Excellent Design</a>
+      <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+        <i class="bi bi-chevron-right ms-2"></i>
+      </a>
+    </div>
+    <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Excellent_pole.html" class="sidebar-item-text sidebar-link">Excellent Pole</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Excellent_rectangle.html" class="sidebar-item-text sidebar-link">Excellent Rectangle</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Excellent_assembly.html" class="sidebar-item-text sidebar-link">Excellent Assembly</a>
+  </div>
+</li>
+    </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#testing" id="toc-testing" class="nav-link active" data-scroll-target="#testing">testing</a>
+  <ul class="collapse">
+  <li><a href="#what-you-need-to-run-the-documentation-on-your-own-computer" id="toc-what-you-need-to-run-the-documentation-on-your-own-computer" class="nav-link" data-scroll-target="#what-you-need-to-run-the-documentation-on-your-own-computer">What you need to run the documentation on your own computer:</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">About</h1>
+<h1 class="title d-none d-lg-block">About</h1>
 </div>
 
 
@@ -110,9 +163,43 @@ ul.task-list{list-style: none;}
 
 </header>
 
-<p>About this site</p>
+<section id="testing" class="level1">
+<h1>testing</h1>
+<p>testing solidworks in git</p>
+<p>This is a git repository created as a proof-of-concept, showing that it is possible to version control Solidworks parts in Git and create documentation to go alongside it.</p>
+<p>In production, we would split the 3D models and documentation into their own parallel file trees.</p>
+<p><a href="https://jasper-day.github.io/testing">Check out the website!</a></p>
+<section id="what-you-need-to-run-the-documentation-on-your-own-computer" class="level2">
+<h2 class="anchored" data-anchor-id="what-you-need-to-run-the-documentation-on-your-own-computer">What you need to run the documentation on your own computer:</h2>
+<ul>
+<li>Git, of course:
+<ul>
+<li>Git allows you to clone the repository and push your changes. You can use a GUI interface or the command line.</li>
+</ul></li>
+<li><a href="https://quarto.org">Quarto</a>
+<ul>
+<li>Quarto powers the website and documentation itself. It is easiest to use with the <a href="https://quarto.org/docs/tools/vscode.html#installation">VSCode extension</a></li>
+<li>The quarto website is stored as markdown files (*.qmd). These can be crossreferenced like so: <code>[Link text](filename.qmd)</code>. You can also add images: <code>![Image caption](filename.jpg)</code> and links to files elsewhere in the repository, as well as links to external resources.</li>
+<li>After making changes to the documentation, run <code>quarto render</code> before pushing the changes; this will update the website output in the <code>/docs</code> folder.</li>
+<li>While making changes, you can run <code>quarto preview</code> to preview the website and make sure everything is correct.</li>
+<li>Quarto allows you to include just about anything:
+<ul>
+<li>Enclose in dollar signs: <code>$equation$</code> for inline equations, <code>$$ Long equation $$</code> for standalone</li>
+<li>You can put html and iframes directly into the markdown documents</li>
+<li>Normal Markdown formatting applies: get <em>italics</em> with single *s, <strong>bold</strong> with double **s, <del>strikethrough</del> with ~~ tildes, titles with #, lines with -–
+<ul>
+<li>Check out the <a href="https://pandoc.org/MANUAL.html#pandocs-markdown">pandoc reference</a> for a very complete list of things you can do</li>
+</ul></li>
+<li>You can add working R, Python, or Julia code blocks with triple backticks</li>
+<li>Navigation can be done through standalone pages or a sidebar (the sidebar is a better choice for our wiki)</li>
+<li>And much more. Check out the <a href="https://quarto.org/docs/guide/">documentation</a></li>
+</ul></li>
+</ul></li>
+</ul>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
