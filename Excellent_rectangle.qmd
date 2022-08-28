@@ -8,6 +8,6 @@ The main downside that I can see to using Git (besides the fact that the entire 
 
 The hole in the middle is designed to fit the [excellent pole](Excellent_pole.qmd) with 0.2 mm of clearance.
 
-Here is the [stl](excellent_rectangle.stl)
+Here is the [stl](Excellent_rectangle.stl)
 
 ![](Excellent_rectangle.JPG)

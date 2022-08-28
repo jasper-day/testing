@@ -15,9 +15,9 @@ website:
     contents:
     - section: "Excellent Design"
       contents:
-      - excellent_pole.qmd
-      - excellent_rectangle.qmd
-      - excellent_assembly.qmd
+      - Excellent_pole.qmd
+      - Excellent_rectangle.qmd
+      - Excellent_assembly.qmd
 
 
 format:
