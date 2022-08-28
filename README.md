@@ -19,6 +19,6 @@ In production, we would split the 3D models and documentation into their own par
     - You can put html and iframes directly into the markdown documents
     - Normal Markdown formatting applies: get *italics* with single \*s, **bold** with double \**s, ~~strikethrough~~ with \~\~ tildes, titles with \#, lines with \---
       - Check out the [pandoc reference](https://pandoc.org/MANUAL.html#pandocs-markdown) for a very complete list of things you can do
-    - You can add working R, Python, or Julia code blocks with triple backticks: ` \`\`\`julia `
+    - You can add working R, Python, or Julia code blocks with triple backticks
     - Navigation can be done through standalone pages or a sidebar (the sidebar is a better choice for our wiki)
     - And much more. Check out the [documentation](https://quarto.org/docs/guide/)
