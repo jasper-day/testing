@@ -14,4 +14,4 @@ v2 &= \sqrt{\frac{2gk}{k - 1}RT_1\left[1 - \left(\frac{p_2}{p_1} \right) ^ \frac
 \end{aligned}
 $$
 
-Check out the [excellent pole](excellent_pole.qmd), the [excellent rectangle](Excellent_rectangle.qmd), and the [excellent pole](Excellent_pole.qmd).
+Check out the [excellent pole](excellent_pole.qmd), the [excellent rectangle](Excellent_rectangle.qmd), and the [excellent ass](Excellent_assembly.qmd).
