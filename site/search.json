@@ -18,20 +18,20 @@
     "href": "Excellent_pole.html",
     "title": "Excellent Pole",
     "section": "",
-    "text": "This pole measures exactly 0.65 cm in diameter and 5 cm in length. The diameter is chosen to give a 0.2 mm clearance on either side between the pole and the corresponding hole in the excellent rectangle."
+    "text": "Here is the STL"
   },
   {
     "objectID": "Excellent_rectangle.html",
     "href": "Excellent_rectangle.html",
     "title": "Excellent Rectangle",
     "section": "",
-    "text": "The main downside that I can see to using Git (besides the fact that the entire repository is cloned onto your computer when you clone it, and that we could potentially run out of space if we host the repository on github) is that it may not recognize modifications to files, since it’s not designed around storing raw (binary) data like .SLDPRT files.\nThe hole in the middle is designed to fit the excellent pole with 0.2 mm of clearance."
+    "text": "The main downside that I can see to using Git (besides the fact that the entire repository is cloned onto your computer when you clone it, and that we could potentially run out of space if we host the repository on github) is that it may not recognize modifications to files, since it’s not designed around storing raw (binary) data like .SLDPRT files.\nThe hole in the middle is designed to fit the excellent pole with 0.2 mm of clearance.\nHere is the stl"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "solidworks_git",
     "section": "",
-    "text": "To learn more about Quarto websites visit https://quarto.org/docs/websites.\nJust because I can, here is some utterly gratuitous \\(\\LaTeX\\) (the nozzle exit velocity \\(v2\\) of a nozzle):\n\\[\n\\begin{aligned}\nv2 &= \\sqrt{2gJ(h_1 - h_2) + v_1^2} \\\\\nv2 &= \\sqrt{\\frac{2gk}{k - 1}RT_1\\left[1 - \\left(\\frac{p_2}{p_1} \\right) ^ \\frac{(k-1)}{k} \\right] + v_1^2}\n\\end{aligned}\n\\]"
+    "text": "To learn more about Quarto websites visit https://quarto.org/docs/websites.\nJust because I can, here is some utterly gratuitous \\(\\LaTeX\\) (the nozzle exit velocity \\(v2\\) of a nozzle):\n\\[\n\\begin{aligned}\nv2 &= \\sqrt{2gJ(h_1 - h_2) + v_1^2} \\\\\nv2 &= \\sqrt{\\frac{2gk}{k - 1}RT_1\\left[1 - \\left(\\frac{p_2}{p_1} \\right) ^ \\frac{(k-1)}{k} \\right] + v_1^2}\n\\end{aligned}\n\\]\nCheck out the excellent pole, the excellent rectangle, and the excellent pole."
   }
 ]
